@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@mixin PositionCenter {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+@mixin CloudProperty {
+    position: absolute;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.Sky{
+    width: 100%;
+    height: 600px;
+    background-color: skyblue;
+    @include PositionCenter;
+    
+
+
+.Cloud-Box{
+    width: 300px;
+    height: 400px;
+    @include PositionCenter;
+    // border: 1px solid black;
+   
+    position: relative;
+    // To display the cloud and sun in center position horizatal & vertical 
+    // justify-content: center;
+    // align-items: center;
+   
+
+.Sun{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    @include PositionCenter;
+    position: absolute;
+    box-shadow: rgba(232, 161, 110, 0.25) 0px 50px 100px -20px,rgba(236, 164, 105, 0.3) 0px 30px 60px -30px;
+    // background-color: goldenrod;
+   
+    // left: 80px;
+    animation-name: sunAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    }
+    
+
+@keyframes sunAnimation {
+    from {
+      top: 80px;
+      background-color: rgb(218, 141, 32);
+    }
+    to {
+      top: 20px;
+      background-color:yellow;
+    }
+  
+
+}
+.Cloud-footer{
+    position: absolute;
+      width: 200px;
+      height: 50px;
+      background-color: white;
+      border-radius: 25px;
+}
+.Cloud1 {
+    @include CloudProperty;
+    left: 50px;
+    top: 95px;
+    height: 100px;
+    width: 100px;
+    
+  }
+  .Cloud2 {
+    @include CloudProperty;
+    left: 120px;
+    top: 95px;
+    height: 110px;
+    width: 110px;
+    
+  }
+  .Cloud3 {
+    @include CloudProperty;
+    left: 200px;
+    top: 145px;
+    height: 80px;
+    width: 80px;
+   
+  }
+}
+.Cloud-Moving{ 
+    position: relative;
+    display: flex;
+
+
+    .Cloud-footer{
+        position: absolute;
+          width: 200px;
+          height: 50px;
+          background-color: white;
+          border-radius: 25px;
+          left: 50px;
+          top: 110px
+    }
+    .Cloud1 {
+        @include CloudProperty;
+        left: 60px;
+        top: 50px;
+        height: 80px;
+        width: 80px;
+        
+      }
+      .Cloud2 {
+        @include CloudProperty;
+        left: 125px;
+        top: 35px;
+        height: 90px;
+        width: 90px;
+        
+      }
+      .Cloud3 {
+        @include CloudProperty;
+        left: 200px;
+        top: 78px;
+        height: 80px;
+        width: 80px;
+       
+      }
+ 
+}
+}

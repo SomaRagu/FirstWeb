@@ -1,0 +1,62 @@
+.fullcard{
+    width: 500px;
+    height: 800px;
+    padding: 10px;
+    margin: 10px ;
+    border: 5px solid rgba(139, 136, 116, 0.986);
+    background-color: rgba(129, 118, 118, 0.537);
+    border-radius: 20px;
+    box-shadow: rgba(228, 228, 89, 0.518);
+    
+ 
+}
+.picture_part{
+     border: 2px solid black;
+    padding: 2px;
+    background-image: url(bike.jpeg); 
+    background-color: #a26767;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border-radius: 20px;
+   
+}
+.content_part::first-letter{
+color: white;
+    font-size: 80px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.content_part{
+    font-size: 20px;
+    padding: 3px;
+    margin: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.button{
+    display: flex;
+    text-transform: uppercase;
+}
+
+.button_part{
+
+    border: 2px black solid;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    color: rgb(6, 60, 57);
+    background-color: rgb(218, 229, 240);
+}
+.button_part:hover{
+    background-color: rgb(128, 185, 148);
+    color: white;
+}
+.specific{
+    text-indent: 5px;
+}
+
+

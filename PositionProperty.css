@@ -1,0 +1,129 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+
+.personimage{
+    width: 100%; 
+    height: 200px;
+    /* border: 2px dotted rgb(178, 139, 10); */
+    position:relative; 
+}
+.imageproperty{
+    /* margin-left: 10%;
+    margin-top: 10%; */
+    /* align-items: center; */
+    /* position: relative; */
+    width: 60%;
+    /* padding: 10%;     */
+    position:absolute;
+    left: 220px;
+    top: 150px;
+}
+   
+    
+
+.heading_bg{
+    width: 100%; height: 300px;
+    background-color: rgb(163, 151, 19);
+    margin: none;
+    display: flex;
+    text-align: right;
+    align-items: flex;
+    justify-content:space-between;
+
+}
+.logo{
+    display: flex;
+    width: 200px;
+    height: 100px;
+    margin-left: 20px;
+}
+.heading_content{
+    display: flex;
+    /* font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    font-size: 50px;
+    
+     /* text-align: right; */
+    /* align-items: flex-end; */
+    /* justify-content:space-evenly; */
+}
+.person_name{
+    display: flex;
+    font-weight: bold;  
+}
+/* Contents */
+.content1{
+    margin-left: 80px;
+    margin-top: 300px;
+    margin-right: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.content1_title{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 80px;
+    padding-top: 50px;
+}
+.paragraph1::first-letter{
+    font-size: 60px;
+    margin-top: 50px;
+}
+
+.button1{
+    margin: 40px 80px;
+    
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(56, 56, 237);
+    color: white;
+    text-align: center;
+    justify-content: center;   
+    padding:5px;
+}
+.button1:hover{
+    background-color: rgb(6, 6, 82);
+    
+}
+
+.content2{
+margin: 40px 80px;
+}
+
+.about{
+    /* margin: 40px 80px; */
+    display: flex;
+}
+.about.resum{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    inline-size: 10px;
+}
+.image_logo{
+    display: flex;
+    /* margin: 5px 0; */
+    width: 80px;
+    height: 60px;
+   
+    /* box-sizing: border-box; */
+   
+    /* border-radius: 50%; */
+    /* background-color: rgb(34, 195, 125); */
+}
+/* @media screen (max-width: 50px); 
+    
+    .fullpage{
+                width: 100%;
+                background-color: aquamarine;
+            } */
+    
+
+
+
+   
+

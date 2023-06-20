@@ -1,0 +1,55 @@
+.contenair{
+
+    width: 100px;
+    height: 100px;
+    position: relative;
+    background-color: green;
+    animation-name: ColorAnimation;
+    animation-duration: 10s;
+    transition: 3s;
+    /* animation-fill-mode: backwards;
+    animation-fill-mode: forwards; */
+    animation-fill-mode: both;
+
+    /* Fist example 
+    animation-iteration-count: 5;
+    animation-direction: reverse;
+    animation-direction: alternate;
+    */
+
+
+}
+
+@keyframes ColorAnimation{
+    0%{
+        left: 0px;
+        top: 0px;
+        background-color: red;
+    } 
+    20%{
+        left: 200px;
+        top: 0px;
+        background-color:orange
+    } 
+    40%{
+        left: 200px;
+        top: 200px;
+        background-color: yellow;
+    } 
+    60%{
+        left: 0px;
+        top: 200px;
+        background-color: blue;
+    } 
+    80%{
+        left: 0px;
+        top: 0px;
+        background-color: black;
+    } 
+    100%{
+        left: 200px;
+        top: 0px;
+        background-color: violet;
+    } 
+
+}

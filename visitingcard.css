@@ -1,0 +1,93 @@
+.name{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.card{
+    width: 700px;
+    height: 350px;
+    background-color: rgb(29, 48, 29);
+    color: bisque;
+    font-size: 15px;
+    font-family:Cambria;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.details{   
+    text-align:left;
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-right: 5px rgba(184, 170, 92, 0.598) solid ;
+  
+}
+.name{
+    color: rgba(184, 170, 92, 0.598);
+    font-size: 50px;
+    padding: 10px;
+    margin: 5px;
+   
+}
+.pic{
+    height: auto;
+    border-radius: 20px;
+    padding: auto;
+    margin: 40px ;
+    overflow: hidden; 
+}
+.designation{
+    background-color:  rgba(184, 170, 92, 0.598);
+    color: white;
+    width: 140px;
+    height: 25px;
+    padding: 5px;
+    margin-left:  15px;
+    border-radius: 50px;
+    font-size: 18px;
+    text-align: center;      
+}
+.contact{
+   
+    margin: 10px;
+    display:flex;
+    width: auto;
+    
+}
+
+.contact-detail.contact{
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    inline-size: 10px;
+
+}
+.each-contact-details{
+    display: flex;
+}
+.contact-icone{
+    margin: 5px 0;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgb(192, 186, 177);
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center;
+    padding: 10px; */
+} 
+/* .contact-details{
+    margin: 5px 0;
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items:flex-start;
+    justify-content:flex-start;
+    padding: 10px;
+
+
+} */

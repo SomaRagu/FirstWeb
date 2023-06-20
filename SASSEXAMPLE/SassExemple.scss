@@ -1,0 +1,19 @@
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}
+
+$BgColor: blue;
+
+.box{
+    width: 20px;
+    height: 20px;
+    background-color: $BgColor;
+    padding: 10px;
+    margin: 5px;
+    color: black;
+}

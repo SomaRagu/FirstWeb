@@ -1,0 +1,68 @@
+/* *{
+    margin: 0px;
+    
+} */
+.mainbox{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(34, 32, 32);
+    position: absolute;
+
+}
+.box1{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(219, 207, 207);
+    font: 80px black;
+    text-align: center;
+    padding: 15px;
+ 
+}
+
+.box2{
+    position: absolute;
+    right: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(179, 140, 140);
+    font: 80px black;
+    text-align: center;
+    padding: 15px;
+}
+.box3{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 188, 123);
+    font: 80px black;
+    text-align: center;
+    padding: 15px;
+}
+.box4{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(113, 205, 228);
+    font: 80px black;
+    text-align: center;
+    padding: 15px;
+    
+}
+.box5{
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(135, 159, 226);
+    font: 80px black;
+    text-align: center;
+    padding: 10px;
+    
+    
+}

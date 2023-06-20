@@ -1,0 +1,114 @@
+.Heading{
+    background-color: rgb(170, 170, 211);
+    height: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.Content{
+
+    background-color: rgb(10, 10, 50);
+    width: 80px;
+    height: 30px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+    color: rgb(234, 229, 229);
+    
+}
+
+.bg{
+    background-color: rgba(233, 210, 237, 0.358);
+    width: 500px;
+    height: 400px;
+    padding: 20px;
+    margin: 20px;
+}
+.Flex-start{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.Flex-end{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+
+}
+
+.Center{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.Space-between{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+.Space-around{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.Space-evenly{
+    background-color: rgb(210, 106, 228);
+    width: 400px;
+    height: 20px;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.bg2{
+    background-color: rgb(213, 204, 107);
+    width: auto;
+    height: 20px;
+    border-radius: 5px;
+    padding: 2px;
+    margin: 5px;
+}
+
+.title{
+   border-top: 30px;
+}
+

@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    
+}
+.navbar__details{
+    width: 100%;
+    height: auto;
+    background-color: rgb(5, 37, 84);
+    align-content: center;
+    text-align: center;
+    padding:5px;
+    /* margin: 5px; */
+    border: 5px;
+    color: white;
+    line-height: 2;
+
+}
+
+.navbar__details__company-name{
+   
+    margin: 0px;
+    font-size: 20px;
+}
+.navbar__details__contents{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    padding: 5px;
+    /* margin: 5px; */
+    font-size: 20px;
+    background-color:rgb(5, 37, 84);
+}
+.navbar__details__contents__selection{
+    width: 150px;
+    height: auto;
+   background-color: rgb(35, 129, 155);
+   padding: 5px;
+    /* margin: 5px; */
+    border-radius: 20px;
+    
+}
+
+.navbar__details__contents__selection:hover{
+    background-color: rgba(35, 129, 155, 0.596);
+    cursor: pointer;
+}
+
+

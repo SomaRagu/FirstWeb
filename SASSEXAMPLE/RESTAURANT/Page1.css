@@ -1,0 +1,77 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+ 
+}
+
+.main {
+  width: 100%;
+  height: 650px;
+  padding: 0px;
+  margin: 0px;
+  background-color: rgb(237, 234, 234);
+  border: 0px;
+}
+
+.headingtop {
+  width: 100%;
+  height: 50px;
+  padding: 0px;
+  margin: 0px;
+  border: 0px solid;
+  background-color: grey;
+}
+
+.image-slid{
+  width: 100%; 
+  height: 650px; 
+  background-image:url(/images/Website/bg_1.jpg.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  /* background-color: rgba(138, 127, 127, 0.087); */
+  
+}
+
+.navBar{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  width: 100%;
+  height: 35px;
+  background-color:  rgba(96, 93, 93, 0.733);
+  color: rgb(201, 200, 200);
+  
+ 
+
+}
+
+/* .phone_icone{
+  display: flex;
+  position: absolute;
+  text-align: center;
+  width: 50px;
+  margin: 10px;
+  padding: 5px;
+  border: 1px;
+  color: rgb(172, 222, 114);
+} */
+
+.phone_number{
+  padding: 10px;
+  width: auto;
+
+}
+
+.mail-adress{ 
+  padding: 10px;
+  width: auto;
+}
+
+.Open-hours{
+  padding: 10px;
+  width:auto;
+  
+}

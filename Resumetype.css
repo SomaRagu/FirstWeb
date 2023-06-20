@@ -1,0 +1,32 @@
+/* @import url(./fonts/Fira_Sans/FiraSans-Medium.ttf); */
+*{
+    font-family: "fira sans";
+}
+
+.Page_settings{
+    width:2480 px; height: 3508px; background:white;
+    border: 5px solid rgb(62, 5, 48);
+}
+
+.left_column{
+    width: 400px; height: 100%; background-color: rgb(62, 5, 48);
+    margin: 0px;
+   
+}
+
+.person_image{
+    width: 300px; height: 300px; border-radius: 300px; background-color: rgb(35, 31, 31);
+    margin: 50px;  
+}
+.contact_items{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+   text-indent: 140px;
+    text-decoration: underline;
+     
+    
+}
+/* .contact p{
+    
+
+} */

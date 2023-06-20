@@ -1,0 +1,17 @@
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+}
+
+.box {
+  width: 20px;
+  height: 20px;
+  background-color: blue;
+  padding: 10px;
+  margin: 5px;
+  color: black;
+}/*# sourceMappingURL=SassExemple.css.map */
